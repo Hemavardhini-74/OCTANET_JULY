@@ -1,0 +1,175 @@
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-title i {
+    margin-right: 10px;
+}
+
+
+
+.header-title {
+    transition: letter-spacing 0.3s ease;
+}
+
+.header-title:hover {
+    letter-spacing: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #9493ce;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.cta {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.cta h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+.cta p {
+    font-size: 18px;
+    color: #666;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.cta button:hover {
+    background-color: darkorange;
+
+}
+
+.cta button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.center-img {
+    text-align: center;
+    margin: 40px;
+    
+}
+
+.center-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.center-img {
+    text-align: center;
+    margin: 40px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.image-popup img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-container:hover .image-popup {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 ; */
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  width: 50%;
+  border: 1px solid rgb(13, 24, 13);
+  padding: 10px;
+}
+
+.card {
+    flex-basis: calc(33.33% - 10px);
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* margin: 10px; */
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.card a {
+    text-decoration: none;
+    color: #e74c3c;
+    font-weight: bold;
+}
