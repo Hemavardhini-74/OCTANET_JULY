@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TO DO LIST</title>
+    <link
+      rel="stylesheet"
+      href="style.css"
+      type="text/css"
+      media="screen"
+      charset="utf-8"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <p>
+        <label for="new-task">Add Item</label>
+        <input id="new-task" type="text" />
+        <button>Add</button>
+      </p>
+      <h3>To-do-List</h3>
+      <ul id="incomplete-tasks">
+        <li>
+          <input type="checkbox" />
+          <label>GFG POTD</label>
+          <input type="text" />
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        </li>
+        <li>
+          <input type="checkbox" />
+          <label>Leetcode POTD</label>
+          <input type="text" />
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        </li>
+        <li>
+          <input type="checkbox" />
+          <label>Practice Array list problems in SDE sheet</label>
+          <input type="text" />
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        </li>
+        <li>
+          <input type="checkbox" />
+          <label>Submit applications for avaialbele interns</label>
+          <input type="text" />
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        </li>
+      </ul>
+      <h3>Completed</h3>
+      <ul id="completed-tasks"></ul>
+    </div>
+
+    <script src="app.js" type="text/javascript" charset="utf-8"></script>
+    <footer>
+      <p>Created by Hemavardhini</p>
+    </footer>
+  </body>
+</html>
