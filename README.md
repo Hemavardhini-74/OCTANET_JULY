@@ -11,3 +11,8 @@ link: https://hemavardhini-74.github.io/OCTANET_JULY/Task%201/Task1.html
 Here is my Task 2 TO DO List
 
 webpage link: https://hemavardhini-74.github.io/OCTANET_JULY/Task%202/index.html
+
+## Task 3
+Here is my Task 2 Website clone
+
+link: https://hemavardhini-74.github.io/OCTANET_JULY/Task%203/index.html
